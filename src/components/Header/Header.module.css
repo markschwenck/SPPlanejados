@@ -12,3 +12,29 @@
 img {
     width: 310px;
 }
+
+.header a {
+    text-decoration: none;
+    color: var(--primary);
+    display: inline-block;
+    margin-right: 20px;
+    
+    color: #000;
+}
+
+.header a::before {
+    
+        content: '';
+        display: block;
+        width: 0;
+        height: 1px;
+        background: #1a365e;;
+        transition: width .3s;
+        
+        
+  }
+  
+  .header a:hover::before {
+    width: 100%;
+    color: #1a365e;
+  }

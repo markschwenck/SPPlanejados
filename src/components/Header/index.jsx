@@ -9,12 +9,12 @@ function Header () {
             <span>
                <img src= {Logo} alt="" />
             </span>
-            <nav>
-                <a href="">Home</a>
-                <a href="">Sobre</a>
-                <a href="">Projetos</a>
-                <a href="">Contato</a>
-            </nav>
+            <ul>
+                <li href="">Home</li>
+                <li href="">Sobre</li>
+                <li href="">Projetos</li>
+                <li href="">Contato</li>
+            </ul>
         </header>
     )
 }

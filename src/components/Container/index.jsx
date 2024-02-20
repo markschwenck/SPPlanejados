@@ -2,9 +2,14 @@ import styles from './Container.module.css'
 
 function Container () {
     return (
-        <Container className= {styles.Container}>
-
-        </Container>
+        <container className= {styles.container}>
+            <main>
+                Conteudo
+            </main>
+            <span>
+                Conteudo
+            </span>
+        </container>
 
     )
 }

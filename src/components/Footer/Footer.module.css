@@ -16,16 +16,11 @@ img {
     width: 250px;
 }
 
-.footer div {
-  width: 250px;
-  padding: 10px;
-}
-
 .footer p {
-  padding-top: 24px;
+  display: flex;
+  padding-bottom: 10px;
+  gap: 10px;
 }
-
-
 
 .footer ul{
     height: 120px;
@@ -41,6 +36,7 @@ img {
 .footer li {
     
     padding-bottom: 20px;
+    gap: 20px;
     cursor: pointer;
     display: block;
     height: 100%;

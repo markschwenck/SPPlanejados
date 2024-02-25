@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 function Footer() {
     return (
         <footer className={styles.footer}>
-            
+                                                                                       
             <div>
             <span>
                <img src= {Logo} alt="" />

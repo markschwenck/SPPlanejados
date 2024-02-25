@@ -1,7 +1,7 @@
 .header {
     width: 100%;
-    height: 120px;
-    background-image: url(../../../Imagens/Imagens/header.jpg);
+    height: 150px;
+    background-image: url(../../../Imagens/Imagens/header-novo-menor.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

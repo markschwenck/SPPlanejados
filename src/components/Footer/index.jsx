@@ -33,7 +33,7 @@ function Footer() {
             </div>
 
             <div className={styles.divdir}>
-                <p>Copyright © 2023</p> 
+                <p>Copyright © 2024</p> 
                 <p>Todos os Direitos Reservados.</p> 
                 <p>Desenvolvido por Markcell Schwenck</p>
             </div>

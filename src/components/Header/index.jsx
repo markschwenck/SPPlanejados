@@ -1,5 +1,6 @@
 import styles from './Header.module.css'
 import Logo from '../../assets/Logo/Logo-reformulada.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -9,12 +10,12 @@ function Header () {
             <span>
                <img src= {Logo} alt="" />
             </span>
-            <ul>
-                <li href="">Home</li>
-                <li href="">Sobre</li>
-                <li href="">Projetos</li>
-                <li href="">Contato</li>
-            </ul>
+            <nav>
+                <Link to="/"> Home </Link>
+                <Link to="/sobre"> Sobre </Link>
+                <Link to="/projetos"> Projetos </Link>
+                <Link to="/contato"> Contato </Link>
+            </nav>
         </header>
     )
 }

@@ -1,17 +1,13 @@
 
 import './App.css'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Container from './components/Container'
+import AppRoutes from './routes.jsx'
 
 function App() {
   
 
   return (
     <>
-      <Header/>
-      <Container/>
-      <Footer/>
+      <AppRoutes/>
     </>
   )
 }

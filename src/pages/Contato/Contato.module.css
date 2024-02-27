@@ -1,0 +1,78 @@
+.container {
+    color: var(--primary);
+}
+
+.container main {
+    background-image: url(../../../Imagens/Imagens/design-de-interiores-minimalista-novomenor.jpg);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*
+.container main span {
+ 
+    width: 800px;
+    height: 350px;
+    background: rgba( 255, 255, 255, 0.1 );
+    
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    
+}
+
+.container h1 {
+    
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+*/
+
+.container div {
+    background-image: url(../../../Imagens/Imagens/container-span.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.container span {
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    width: 550px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.container span h2 {
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.container span p {
+    
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}

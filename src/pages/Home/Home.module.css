@@ -10,30 +10,22 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
     
-}
-/*
-.container main span {
- 
-    width: 800px;
-    height: 350px;
-    background: rgba( 255, 255, 255, 0.1 );
-    
-    backdrop-filter: blur( 2px );
-    -webkit-backdrop-filter: blur( 1px );
-    border-radius: 10px;
     
 }
 
-.container h1 {
-    
-    font-size: 50px;
-    font-weight: 300;
+
+
+.container main h1 {
+    width: 1200px;
+    padding-top: 150px;
     text-align: center;
+    font-size: 70px;
+    font-weight: 200;
+    
+
 }
 
-*/
 
 .container div {
     background-image: url(../../../Imagens/Imagens/container-span.jpg);
@@ -76,3 +68,4 @@
     font-weight: 400;
     font-size: 20px;
 }
+

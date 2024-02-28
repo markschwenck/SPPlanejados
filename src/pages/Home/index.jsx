@@ -10,11 +10,11 @@ function Home() {
             
             <container className= {styles.container}>
             <main>
-                {/*
-                <span>
-                    <h1>"Transformamos ideias em projetos incríveis, <br />alinhando beleza e funcionalidade." </h1>
-                </span>
-                 */}
+                
+                
+                    <h1>Você sonha, a gente projeta, realiza e instala! </h1>
+                
+                 
             </main>
                 
             <div>

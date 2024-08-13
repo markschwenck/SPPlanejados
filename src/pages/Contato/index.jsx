@@ -3,41 +3,41 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
 function Contato() {
-    return(
+    return (
         <>
-            <Header/>
-            <container className= {styles.container}>
-            <main>
-                Contato
-            </main>
-                
-            <div>
+            <Header />
+            <container className={styles.container}>
+                <main>
+                    Contato
+                </main>
 
-                <span>
-                    <h2></h2>
-                        <p>
-                        
-                        </p>
-                </span>
+                <div>
 
-                <span>
-                    <h2></h2>
+                    <span>
+                        <h2></h2>
                         <p>
-                       
-                        </p>
-                </span>
 
-                <span>
-                    <h2></h2>
-                        <p>
-                        
                         </p>
-                </span>
-                
-            </div>
-                
+                    </span>
+
+                    <span>
+                        <h2></h2>
+                        <p>
+
+                        </p>
+                    </span>
+
+                    <span>
+                        <h2></h2>
+                        <p>
+
+                        </p>
+                    </span>
+
+                </div>
+
             </container>
-            <Footer/>
+            <Footer />
         </>
     )
 }

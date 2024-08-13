@@ -8,36 +8,39 @@ import { MdEmail } from "react-icons/md";
 function Footer() {
     return (
         <footer className={styles.footer}>
-                                                                                       
-            <div>
-            <span>
-               <img src= {Logo} alt="" />
-            </span>
-                
-            </div>
 
-            <div>
-                <ul>
-                    <li href="">Home</li>
-                    <li href="">Sobre</li>
-                    <li href="">Projetos</li>
-                    <li href="">Contato</li>
-                </ul>
-            </div>
+            <div className={styles.content}>
+                <span>
+                    <img src={Logo} alt="" />
+                </span>
 
-            <div>
-                <p><IoLocationSharp/>  Tirol, Belo Horizonte-MG</p>
-                <p><IoLogoWhatsapp/>  (31) 98761-8879</p>
-                <p><FaPhone/>  (31) 98761-8879</p>
-                <p><MdEmail />  sp.planejados@hotmail.com</p> 
-            </div>
+                <span className={styles.links}>
+                    <ul>
+                        <li href="">Home</li>
+                        <li href="">Sobre</li>
+                        <li href="">Projetos</li>
+                        <li href="">Contato</li>
+                    </ul>
+                </span>
 
-            <div className={styles.divdir}>
-                <p>Copyright © 2024</p> 
-                <p>Todos os Direitos Reservados.</p> 
+                <span className={styles.icons}>
+                    <ul>
+                        <li><p><IoLocationSharp />  Tirol, Belo Horizonte-MG</p></li>
+                        <li><p><IoLogoWhatsapp />  (31) 98761-8879</p></li>
+                        <li><p><FaPhone />  (31) 98761-8879</p></li>
+                        <li><p><MdEmail />  sp.planejados@hotmail.com</p></li>
+                    </ul>
+                </span>
+
+            </div>
+            <div className={styles.copy}>
+
+                <p>Copyright © 2024</p>
+                <p>Todos os Direitos Reservados.</p>
                 <p>Desenvolvido por Markcell Schwenck</p>
+
             </div>
-            
+
         </footer>
     )
 }

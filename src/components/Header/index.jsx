@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 
 
 
-function Header () {
+function Header() {
     return (
-        <header className= {styles.header}>
+        <header className={styles.header}>
             <span>
-               <img src= {Logo} alt="" />
+                <img className={styles.img} src={Logo} alt="" />
             </span>
-            <nav>
+            <nav className={styles.nav}>
                 <Link to="/"> Home </Link>
                 <Link to="/sobre"> Sobre </Link>
                 <Link to="/projetos"> Projetos </Link>

@@ -8,11 +8,13 @@
     height: 1000px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 /*
 .container main span {
  
@@ -41,16 +43,17 @@
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-    
+
+
 }
 
 .container span {
-    background: rgba( 255, 255, 255, 0.1 );
-    backdrop-filter: blur( 2px );
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
     border-radius: 10px;
     width: 550px;
     height: 400px;
@@ -59,7 +62,7 @@
     justify-content: space-around;
     flex-direction: column;
     padding: 20px;
-    
+
 }
 
 .container span h2 {
@@ -71,7 +74,7 @@
 }
 
 .container span p {
-    
+
     text-align: center;
     font-weight: 400;
     font-size: 20px;
